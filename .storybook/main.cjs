@@ -1,3 +1,5 @@
+const preprocess = require('svelte-preprocess');
+
 module.exports = {
   core: {
     builder: "storybook-builder-vite"
@@ -11,7 +13,9 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-svelte-csf"
   ],
+  // The rest of the config here...
   svelteOptions: {
-    preprocess: require("../svelte.config.cjs").preprocess
-  }
-}
+    // Same options that you pass to preprocess in svelte.config.js
+    preprocess: preprocess(),
+  },
+};
