@@ -1,0 +1,38 @@
+:root {
+	--app-font-sdize: 20px;
+	--app-line-height: 1.6;
+	--font-scale-ratio: 1.333;
+
+	--text-font-weight: normal;
+	--heading-font-weight: bold;
+
+	--text-scale-0: calc(1rem / var(--font-scale-ratio));
+	--text-scale-1: 1rem;
+	--text-scale-2: calc(1rem * var(--font-scale-ratio));
+	--text-scale-3: calc(var(--text-scale-2) * var(--font-scale-ratio));
+	--text-scale-4: calc(var(--text-scale-3) * var(--font-scale-ratio));
+	--text-scale-5: calc(var(--text-scale-4) * var(--font-scale-ratio));
+	--text-scale-6: calc(var(--text-scale-5) * var(--font-scale-ratio));
+	--text-scale-7: calc(var(--text-scale-6) * var(--font-scale-ratio));
+	--text-scale-8: calc(var(--text-scale-7) * var(--font-scale-ratio));
+	--text-scale-9: calc(var(--text-scale-8) * var(--font-scale-ratio));
+	--text-scale-10: calc(var(--text-scale-9) * var(--font-scale-ratio));
+
+	--root-font-family: 'georgia';
+	--heading-font-family: 'poppins';
+
+	--ht-text-contrast-100: var(--ht-color-grey-100);
+	--ht-text-contrast-200: var(--ht-color-grey-200);
+	--ht-text-contrast-300: var(--ht-color-grey-300);
+	--ht-text-contrast-400: var(--ht-color-grey-400);
+	--ht-text-contrast-500: var(--ht-color-grey-500);
+	--ht-text-contrast-600: var(--ht-color-grey-600);
+	--ht-text-contrast-700: var(--ht-color-grey-700);
+	--ht-text-contrast-800: var(--ht-color-grey-700);
+	--ht-text-contrast-900: var(--ht-color-grey-700);
+	--ht-text-color-black: var(--ht-color-black);
+	--ht-text-color-white: var(--ht-color-black);
+
+	--ht-text-color: hsl(var(--app-hue), 30%, 10%);
+	--ht-text-color: hsl(var(--app-hue), 30%, 20%);
+}

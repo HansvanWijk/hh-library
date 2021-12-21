@@ -1,0 +1,10 @@
+.hh-section,
+.hh-container {
+	max-width: var(--app-max-width);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hh-width-site {
+	max-width: var(--app-max-width);
+}

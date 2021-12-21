@@ -1,0 +1,38 @@
+.button {
+	--hh-btn-cta: var(--ht-color-main-500);
+	transition: 0.2s ease;
+	line-height: 1.2;
+	text-decoration: none;
+	padding: calc(var(--button-spacing) * 2) calc(var(--button-spacing) * 3);
+	border-radius: 4px;
+	will-change: transform;
+	background: white;
+	border: 1px solid var(--border-color-default);
+	font-weight: bold;
+	color: var(--text-color);
+	display: inline-block;
+	box-shadow: var(--shadow-xs);
+}
+
+.button:focus {
+	box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.15);
+	outline: none;
+}
+
+.button:active {
+	transform: translateY(1px);
+}
+
+.button--primary {
+	background: var(--hh-btn-cta);
+	border-color: var(--ht-color-main-400);
+}
+.button--primary:focus {
+	box-shadow: 0px 0px 0px 2px var(--ht-color-main-500);
+	background: var(--ht-color-main-400);
+}
+.button--primary:hover {
+	background: var(--ht-color-main-400);
+	border-color: var(--ht-color-main-500);
+	box-shadow: var(--shadow-sm), 0 0 4px rgba(255, 255, 255, 0.1) inset;
+}

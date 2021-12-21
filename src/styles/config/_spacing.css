@@ -1,0 +1,33 @@
+:root {
+	--app-spacing-unit: 0.5rem;
+	--gutter-width: 24px;
+
+	--box-spacing-default: calc(var(--app-spacing-unit) * 3);
+
+	--button-spacing: var(--app-spacing-unit);
+
+	--ht-space-1: var(--app-spacing-unit);
+	--ht-space-2: calc(var(--app-spacing-unit) * 2);
+	--ht-space-3: calc(var(--app-spacing-unit) * 3);
+	--ht-space-4: calc(var(--app-spacing-unit) * 4);
+	--ht-space-5: calc(var(--app-spacing-unit) * 5);
+	--ht-space-6: calc(var(--app-spacing-unit) * 6);
+	--ht-space-7: calc(var(--app-spacing-unit) * 7);
+	--ht-space-8: calc(var(--app-spacing-unit) * 8);
+	--ht-space-9: calc(var(--app-spacing-unit) * 9);
+	--ht-space-10: calc(var(--app-spacing-unit) * 10);
+
+	--hh-space-s: var(--ht-space-4);
+	--hh-space-m: var(--ht-space-7);
+	--hh-space-l: var(--ht-space-10);
+
+	--hh-gutter-default: var(--ht-space-4);
+}
+
+.stack-s > * {
+	margin-bottom: var(--app-spacing-unit);
+}
+
+.stack-s > *:last-child {
+	margin-bottom: initial;
+}

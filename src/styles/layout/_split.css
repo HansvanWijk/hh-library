@@ -1,0 +1,15 @@
+/*
+The split pattern consists of two parts: one for the copy and another for the media (image or video). 
+This pattern is at the base of ready-made sections like hero split and features split.
+*/
+.hh-cols-2,
+.split {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: var(--hh-gutter-default);
+}
+
+.hh-cols-2,
+.split > * {
+	grid-column: span 1 / span 1;
+}

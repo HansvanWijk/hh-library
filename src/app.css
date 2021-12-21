@@ -1,0 +1,32 @@
+@import './styles/config/_base.css';
+@import './styles/config/_borders.css';
+@import './styles/config/_buttons.css';
+@import './styles/config/_colors.css';
+@import './styles/config/_easing.css';
+@import './styles/config/_shadows.css';
+@import './styles/config/_spacing.css';
+@import './styles/config/_typography.css';
+
+/* STYLES
+======================================================================== */
+@import './styles/generic/_normalize.css';
+@import './styles/base/_typography.css';
+@import './styles/bricks/_card.css';
+@import './styles/layout/_columns.css';
+@import './styles/layout/_section.css';
+
+/* UTILS
+======================================================================== */
+@import './styles/utils/_borders.css';
+@import './styles/utils/_alignment.css';
+@import './styles/utils/_base.css';
+@import './styles/utils/_spacing.css';
+@import './styles/utils/_width.css';
+
+html {
+	font-size: var(--app-font-size);
+	line-height: var(--app-line-height);
+	font-family: 'georgia', 'poppins', sans-serif;
+	color: var(--ht-text-color);
+	background: #fff;
+}

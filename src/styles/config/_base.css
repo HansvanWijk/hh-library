@@ -1,3 +1,5 @@
 :root {
-	--app-background: yellow;
+	--app-max-width: 85rem;
+	--hh-theme-hue: 227;
+	--hh-theme-saturation: 50%;
 }
